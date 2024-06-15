@@ -1,5 +1,9 @@
-import PageTemplate, { generateMetadata } from './(pages)/[slug]/page'
+import React from 'react'
+import Hero from '../ui/hero'
 
-export default PageTemplate
+export default function page() {
+  return (
+    <div><Hero /></div>
+  )
+}
 
-export { generateMetadata }
